@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Exercícios de JavaScript</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Exercícios de JavaScript</h1>
+
+    <!-- Produto -->
+    <section class="card">
+      <h2>📦 Simulação de Produto</h2>
+      <input type="number" id="productId" placeholder="Digite o ID do produto" />
+      <button onclick="handleProductFetch()">Buscar Produto</button>
+      <div id="productResult"></div>
+    </section>
+
+    <!-- Agrupador de Palavras -->
+    <section class="card">
+      <h2>🧩 Agrupador de Palavras</h2>
+      <input type="text" id="wordInput" placeholder="Digite palavras separadas por vírgula" />
+      <button onclick="handleGroupWords()">Agrupar</button>
+      <pre id="wordGroupsOutput"></pre>
+    </section>
+
+    <!-- FizzBuzz -->
+    <section class="card">
+      <h2>🧠 FizzBuzz</h2>
+      <input type="number" id="fizzBuzzInput" placeholder="Digite um número" />
+      <button onclick="handleFizzBuzz()">Gerar</button>
+      <div id="fizzBuzzOutput" class="grid"></div>
+    </section>
+
+    <!-- Soma de Quadrados -->
+    <section class="card">
+      <h2>🧮 Soma de Quadrados</h2>
+      <input type="text" id="numberInput" placeholder="Digite números separados por vírgula" />
+      <button onclick="handleSumSquares()">Calcular</button>
+      <div id="sumOutput"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
